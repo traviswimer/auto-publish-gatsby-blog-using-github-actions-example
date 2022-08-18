@@ -104,6 +104,15 @@ module.exports = {
         ],
       },
     },
+
+    // THIS IS THE SCHEDULED PUBLISHING PLUGIN
+    {
+      resolve: `gatsby-plugin-scheduled-publishing`,
+      options: {
+        publishDate: node => node.frontmatter?.date,
+      },
+    },
+
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

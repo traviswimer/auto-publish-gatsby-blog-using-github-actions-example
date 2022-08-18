@@ -5884,6 +5884,13 @@ gatsby-plugin-page-creator@^4.21.0:
     globby "^11.1.0"
     lodash "^4.17.21"
 
+gatsby-plugin-scheduled-publishing@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-scheduled-publishing/-/gatsby-plugin-scheduled-publishing-1.0.1.tgz#172aa313602b6c406649e6a7f8602697c8681a18"
+  integrity sha512-afOUz1Byb77D/YhCVmrTRsLZONuIzLOBs5ruKeJckp86/E2XI2kF1u4CDQoiXWrYuwchQkMh8AnLpfkalYZAgg==
+  dependencies:
+    luxon "^3.0.1"
+
 gatsby-plugin-sharp@^4.21.0:
   version "4.21.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-4.21.0.tgz#e566592f0c6570340717faaf4111bd5a3e7f4981"
@@ -7783,6 +7790,11 @@ lru-queue@^0.1.0:
   integrity sha512-BpdYkt9EvGl8OfWHDQPISVpcl5xZthb+XPsbELj5AQXxIC8IriDZIQYjBJPEm5rS420sjZ0TLEzRcq5KdBhYrQ==
   dependencies:
     es5-ext "~0.10.2"
+
+luxon@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/luxon/-/luxon-3.0.1.tgz#6901111d10ad06fd267ad4e4128a84bef8a77299"
+  integrity sha512-hF3kv0e5gwHQZKz4wtm4c+inDtyc7elkanAsBq+fundaCdUBNJB1dHEGUZIM6SfSBUlbVFduPwEtNjFK8wLtcw==
 
 make-dir@^3.0.0, make-dir@^3.0.2, make-dir@^3.1.0:
   version "3.1.0"
